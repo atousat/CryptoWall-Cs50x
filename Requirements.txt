@@ -1,0 +1,21 @@
+Required libraries in Python:
+
+pip install 'libraries'
+
+dash
+dash_auth
+dash.dependencies
+dash_bootstrap_components
+plotly
+pandas
+numpy
+yfinance
+yahoo_fin
+datatime
+json
+requests
+math
+sklearn
+tensorflow
+keras
+
