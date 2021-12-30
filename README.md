@@ -19,7 +19,7 @@ The dashboard consists of three main parts, which include:
 - Price change chart in the past year based on Close.
 - Histogram
 
-###3. Forecast:
+### 3. Forecast:
 > In this section, we will forecast the stock price of Bitcoin using LSTM.
 - Memory Term-Short Long is an artificial repetitive neural network (RNN) architecture used for deep learning.
 
