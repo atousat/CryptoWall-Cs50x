@@ -23,7 +23,7 @@ The dashboard consists of three main parts, which include:
 > In this section, we will forecast the stock price of Bitcoin using LSTM.
 - Memory Term-Short Long is an artificial repetitive neural network (RNN) architecture used for deep learning.
 
-** It is possible to download all charts as photos. **
+## It is possible to download all charts as photos. 
 
 The following items have been used to implement this project:
 
@@ -34,4 +34,4 @@ Html tags are used to implement Dash, and Css is used to style pages.
 ## Back end implementation:
 Python programming language has been used to implement the site.
 
-- The site runs on Heroku server for free.
+### The site runs on Heroku server for free.
