@@ -1,5 +1,4 @@
 # CryptoWall
-### Video Demo: https://youtu.be/R0aJ394fE2k
 ### Description:
 In this project, we will build a website in the field of cryptocurrency that displays the information of the top 100 coins based on the Coinmarketcap site in the form of a table
 and their price changes in the form of a chart.
