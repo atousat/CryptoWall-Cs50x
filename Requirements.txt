@@ -1,7 +1,3 @@
-Required libraries in Python:
-
-pip install 'libraries'
-
 dash
 dash_auth
 dash.dependencies
