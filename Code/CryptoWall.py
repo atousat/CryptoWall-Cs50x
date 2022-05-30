@@ -51,8 +51,8 @@ df_eth.to_csv('ethereum.csv')
 df_usdt = yf.download("USDT-USD", start, end)
 df_usdt.to_csv('tether.csv')
 
-df_ada = yf.download("ADA-USD", start, end)
-df_ada.to_csv('cardano.csv')
+df_ada = yf.download("USDC-USD", start, end)
+df_ada.to_csv('usdc-coin.csv')
 
 df_bnb = yf.download("BNB-USD", start, end)
 df_bnb.to_csv('binance-coin.csv')
@@ -79,7 +79,7 @@ def figure_close(stockname , name):
 ''' *********************************************************************************'''
 
 # The tech stocks we'll use for this analysis
-coin_list = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'ADA-USD', 'BNB-USD']
+coin_list = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'USDC-USD', 'BNB-USD']
 
 # Download stock data then export as CSV
 df_close = yf.download(coin_list, start, end)['Adj Close']
