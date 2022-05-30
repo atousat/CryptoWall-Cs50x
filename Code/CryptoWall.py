@@ -167,7 +167,7 @@ df.to_csv( "cryptocurrencies.csv", index=False, encoding='utf-8-sig')
 
 # create empty dataframe
 coin_final = pd.DataFrame()
-Symbols = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'ADA-USD', 'BNB-USD']
+Symbols = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'USDC-USD', 'BNB-USD']
 
 # Set up End and Start times for data grab
 end = datetime.now()
@@ -214,7 +214,7 @@ def LSTM_Model(stockname):
     dataset = data.values
     
     # Get /Compute the number of rows to train the model on
-    training_data_len = math.ceil( len(dataset) *.8)
+    training_data_len = math.ceil(len(dataset) *.8)
     
     # Scale the all of the data to be values between 0 and 1
     scaler = MinMaxScaler(feature_range=(0, 1))
