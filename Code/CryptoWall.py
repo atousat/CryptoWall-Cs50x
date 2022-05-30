@@ -52,7 +52,7 @@ df_usdt = yf.download("USDT-USD", start, end)
 df_usdt.to_csv('tether.csv')
 
 df_ada = yf.download("USDC-USD", start, end)
-df_ada.to_csv('usdc-coin.csv')
+df_ada.to_csv('usd-coin.csv')
 
 df_bnb = yf.download("BNB-USD", start, end)
 df_bnb.to_csv('binance-coin.csv')
