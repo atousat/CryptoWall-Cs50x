@@ -119,7 +119,7 @@ def get_Price(coin):
 ''' ************************************************'''
 # create empty dataframe
 coin_final = pd.DataFrame()
-Symbols = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'ADA-USD', 'BNB-USD']
+Symbols = ['BTC-USD', 'ETH-USD', 'USDT-USD', 'USDC-USD', 'BNB-USD']
 
 # Set up End and Start times for data grab
 end = datetime.now()
@@ -287,7 +287,7 @@ app.layout = dbc.Container([
             # Row-00
             dbc.Row([
                 dbc.Col([
-                    html.H1('top 100 cryptocurrency 2021 by Market Capitalization'),
+                    html.H1('top 100 cryptocurrency 2022 by Market Capitalization'),
                     dbc.Label('Get API from:     '),
                     dcc.Link('coinmarketcap.com', href='https://coinmarketcap.com'),
                 ], className='text-center text-dark, my-4')
@@ -443,9 +443,9 @@ app.layout = dbc.Container([
                         figure = {
                             'data':[
                                 go.Indicator(
-                                    title= {'text': "cardano"},
+                                    title= {'text': "USD Coin"},
                                     mode = "number",
-                                    value = get_Price('ADA-USD')
+                                    value = get_Price('USDC-USD')
                                     )],
 
                             "layout":
